@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
-import {AppBar, Box, createTheme, ThemeProvider, Typography} from "@mui/material";
+import {AppBar, Box, createTheme, Grid, ThemeProvider, Typography} from "@mui/material";
+import OutfitItem from "./components/OutfitItem";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
             mode: "dark",
         }
     })
+
+    const dummy: string[] = ['a', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c', 'b', 'c'];
 
   return (
       <ThemeProvider theme={darkTheme}>
@@ -24,7 +28,29 @@ function App() {
           CHUSINSA
         </Typography>
       </AppBar>
+
+        <Grid  direction="row"
+               justifyContent="center"
+               alignItems="center"
+               width={"100%"}
+        >
+
+        {dummy.map(()=>{
+            return (
+                <Grid item xs={3} sm={6} md={4} >
+                <OutfitItem/>
+                </Grid>
+    )
+
+
+        })}
+        </Grid>
+
+
     </Box>
+
+          <Footer/>
+
       </ThemeProvider>
   );
 }
