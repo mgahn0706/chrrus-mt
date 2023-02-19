@@ -15,6 +15,12 @@ const LaneToColorCode = (color: string) => {
       return "#0052A4";
     case "7":
       return "#747F00";
+    case "GJ":
+      return "#77C4A3";
+    case "4":
+      return "#00A4E3";
+    case "airport":
+      return "#0090D2";
     default:
       return "#000000";
   }
