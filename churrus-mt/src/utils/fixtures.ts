@@ -1,6 +1,6 @@
 export const codyItem: CodyItemType[] = [
   {
-    title: "후드티",
+    title: "고준재",
     pointColor: ["GJ", "1", "4", "airport"],
     place: "??역 물품보관소",
     age: 34,

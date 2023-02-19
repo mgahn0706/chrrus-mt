@@ -29,19 +29,28 @@ const OutfitItem = ({ cody }: { cody: CodyItemType }) => {
           <Typography gutterBottom variant="h5" component="div">
             {cody.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" mt={1}>
             {cody.place}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" mt={1}>
             색상
           </Typography>
-          {cody.pointColor.map((color) => {
-            return <Box bgcolor={LaneToColorCode()} width={10} />;
-          })}
-          <Typography variant="body2" color="text.secondary">
+          <Box display="flex">
+            {cody.pointColor.map((color) => {
+              return (
+                <Box
+                  bgcolor={LaneToColorCode(color)}
+                  display="flex"
+                  height={30}
+                  width={30}
+                />
+              );
+            })}
+          </Box>
+          <Typography variant="body2" color="text.secondary" mt={1}>
             설명
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" mt={1}>
             설명
           </Typography>
         </CardContent>
