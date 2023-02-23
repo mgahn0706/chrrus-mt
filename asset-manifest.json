@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chrrus-mt/static/css/main.c74c2eb8.css",
-    "main.js": "/chrrus-mt/static/js/main.facf0e92.js",
+    "main.js": "/chrrus-mt/static/js/main.c467282e.js",
     "static/js/787.0f0c7871.chunk.js": "/chrrus-mt/static/js/787.0f0c7871.chunk.js",
     "static/media/EventImage.png": "/chrrus-mt/static/media/EventImage.a941bdc6a37661f4c45b.png",
     "index.html": "/chrrus-mt/index.html",
     "main.c74c2eb8.css.map": "/chrrus-mt/static/css/main.c74c2eb8.css.map",
-    "main.facf0e92.js.map": "/chrrus-mt/static/js/main.facf0e92.js.map",
+    "main.c467282e.js.map": "/chrrus-mt/static/js/main.c467282e.js.map",
     "787.0f0c7871.chunk.js.map": "/chrrus-mt/static/js/787.0f0c7871.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c74c2eb8.css",
-    "static/js/main.facf0e92.js"
+    "static/js/main.c467282e.js"
   ]
 }
