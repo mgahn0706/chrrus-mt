@@ -25,6 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "http://mgahn0706.github.io/chrrus-mt",
   "eslintConfig": {
     "extends": [
       "react-app",
